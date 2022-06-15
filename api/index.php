@@ -12,6 +12,13 @@
     echo $correo;
     echo $asunto;
     echo $destinatario;
+
+
+    $mensajeCompleto = $asunto ."\nAtentamente:". $nombre. " " . $apellido. $correo;
+    
+    mail($destinatario, "Contacto",$mensajeCompleto);
+
+    header("location:index.php");
 ?>
 
 <div class="container">
