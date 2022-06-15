@@ -1,2 +1,0 @@
-# vercel
-VERCEL SI FUNCIONA CON PHP
